@@ -2,7 +2,7 @@ FROM tomcat:9.0.100-jdk17
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY tomcat/CentralComprasWebSystem.war /usr/local/tomcat/webapps/ROOT.war
+COPY tomcat/YBWebSystem.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
